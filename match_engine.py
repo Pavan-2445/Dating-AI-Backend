@@ -1,7 +1,7 @@
-from backend.db import get_connection
-from backend.ml_utils import user_to_vector, pair_features, model
-from backend.filters import age_filter, gender_filter
-from backend.cooldown import cooldown_exceeded, log_request
+from db import get_connection
+from ml_utils import user_to_vector, pair_features, model
+from filters import age_filter, gender_filter
+from cooldown import cooldown_exceeded, log_request
 
 
 def fetch_user_profile(user_id, cursor):
