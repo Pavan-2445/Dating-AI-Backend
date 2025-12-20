@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from backend.match_engine import generate_matches, get_revealed_matches
+from match_engine import generate_matches, get_revealed_matches
 
 app = FastAPI()
 
